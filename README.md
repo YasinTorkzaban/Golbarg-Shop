@@ -2,7 +2,7 @@
 
 A front-end-only online store for cosmetics and personal care products, built with **Next.js** and **Tailwind CSS**. The standout feature is the **before/after comparison slider** on the product detail page.
 
-🔗 **Live demo:** [add your Vercel link here]
+🔗 **Live demo:** [https://golbarg-shop.vercel.app/]
 
 ## Features
 
