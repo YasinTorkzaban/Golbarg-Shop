@@ -16,7 +16,7 @@ export default function Header() {
   const isActive = (href) =>
     href === "/" ? pathname === "/" : pathname.startsWith(href);
 
-  // when the menu is open in mobile, it closes with escape button and scroll is disabled
+  // وقتی منوی موبایل بازه: بستن با Escape و جلوگیری از اسکرول صفحه
   useEffect(() => {
     if (!open) return;
     const onKey = (e) => e.key === "Escape" && setOpen(false);
@@ -29,57 +29,59 @@ export default function Header() {
   }, [open]);
 
   return (
-    <header className="sticky top-0 z-40 border-b border-line bg-white/95 backdrop-blur">
-      <div className="page-container flex h-16 items-center justify-between">
-        {/* menu button (just for mobile) */}
-        <button
-          type="button"
-          aria-label="باز کردن منو"
-          onClick={() => setOpen(true)}
-          className="flex h-10 w-10 items-center justify-center md:hidden"
-        >
-          <MenuIcon />
-        </button>
+    <>
+      <header className="sticky top-0 z-40 border-b border-line bg-white/95 backdrop-blur">
+        <div className="page-container flex h-16 items-center justify-between">
+          {/* دکمه‌ی منو (فقط موبایل) */}
+          <button
+            type="button"
+            aria-label="باز کردن منو"
+            onClick={() => setOpen(true)}
+            className="flex h-10 w-10 items-center justify-center md:hidden"
+          >
+            <MenuIcon />
+          </button>
 
-        {/* logo and menu for desktop */}
-        <div className="flex items-center gap-10">
-          <Link href="/" className="flex items-center gap-2 text-xl font-bold text-brand">
+          {/* لوگو و منوی دسکتاپ */}
+          <div className="flex items-center gap-10">
+            <Link href="/" className="flex items-center gap-2 text-xl font-bold text-brand">
               <img src="/logo.svg" alt="" width="28" height="28" />
               {SITE_NAME}
+            </Link>
+            <nav aria-label="منوی اصلی" className="hidden items-center gap-7 md:flex">
+              {NAV_LINKS.map((link) => (
+                <Link
+                  key={link.href}
+                  href={link.href}
+                  className={
+                    isActive(link.href)
+                      ? "font-bold text-brand"
+                      : "text-ink transition-colors hover:text-brand"
+                  }
+                >
+                  {link.label}
+                </Link>
+              ))}
+            </nav>
+          </div>
+
+          {/* سبد خرید */}
+          <Link
+            href="/cart"
+            aria-label="سبد خرید"
+            className="relative flex h-10 w-10 items-center justify-center"
+          >
+            <CartIcon />
+            {count > 0 && (
+              <span className="absolute -left-1 -top-1 rounded-full bg-brand px-1.5 text-[11px] leading-5 text-white">
+                {toFa(count)}
+              </span>
+            )}
           </Link>
-          <nav aria-label="منوی اصلی" className="hidden items-center gap-7 md:flex">
-            {NAV_LINKS.map((link) => (
-              <Link
-                key={link.href}
-                href={link.href}
-                className={
-                  isActive(link.href)
-                    ? "font-bold text-brand"
-                    : "text-ink transition-colors hover:text-brand"
-                }
-              >
-                {link.label}
-              </Link>
-            ))}
-          </nav>
         </div>
+      </header>
 
-        {/* shopping cart */}
-        <Link
-          href="/cart"
-          aria-label="سبد خرید"
-          className="relative flex h-10 w-10 items-center justify-center"
-        >
-          <CartIcon />
-          {count > 0 && (
-            <span className="absolute -left-1 -top-1 rounded-full bg-brand px-1.5 text-[11px] leading-5 text-white">
-              {toFa(count)}
-            </span>
-          )}
-        </Link>
-      </div>
-
-      {/* menu for mobile */}
+      {/* منوی کشویی موبایل: بیرون از header است تا backdrop-blur جلوی fixed را نگیرد */}
       {open && (
         <div className="fixed inset-0 z-50 md:hidden">
           <button
@@ -128,6 +130,6 @@ export default function Header() {
           </div>
         </div>
       )}
-    </header>
+    </>
   );
 }
