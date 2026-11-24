@@ -1,0 +1,834 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "slug": "skincare",
+      "name": "مراقبت از پوست"
+    },
+    {
+      "id": 2,
+      "slug": "makeup",
+      "name": "آرایش"
+    },
+    {
+      "id": 3,
+      "slug": "haircare",
+      "name": "مراقبت از مو"
+    },
+    {
+      "id": 4,
+      "slug": "bodycare",
+      "name": "مراقبت از بدن"
+    },
+    {
+      "id": 5,
+      "slug": "fragrance",
+      "name": "عطر و ادکلن"
+    },
+    {
+      "id": 6,
+      "slug": "hygiene",
+      "name": "بهداشت شخصی"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "slug": "hydrating-face-cream",
+      "name": "کرم مرطوب‌کننده آبرسان",
+      "brand": "آرا",
+      "category": "skincare",
+      "price": 450000,
+      "volume": "۵۰ میلی‌لیتر",
+      "suitableFor": "همه‌ی انواع پوست",
+      "description": "کرم آبرسان سبک با بافت ژل-کرمی که رطوبت پوست را تا ۲۴ ساعت حفظ می‌کند و پوست را نرم و شاداب می‌کند.",
+      "ingredients": [
+        "هیالورونیک اسید",
+        "گلیسیرین",
+        "پانتنول",
+        "روغن بادام شیرین"
+      ],
+      "usage": "صبح و شب بعد از شست‌وشوی صورت، مقدار کمی کرم را روی پوست پخش کنید و با حرکات ملایم ماساژ دهید.",
+      "images": [
+        "/images/products/hydrating-face-cream-1.svg",
+        "/images/products/hydrating-face-cream-2.svg",
+        "/images/products/hydrating-face-cream-3.svg"
+      ],
+      "beforeImage": "/images/products/hydrating-face-cream-before.svg",
+      "afterImage": "/images/products/hydrating-face-cream-after.svg",
+      "rating": 4.7,
+      "reviewsCount": 49,
+      "stock": 18,
+      "featured": true
+    },
+    {
+      "id": 2,
+      "slug": "vitamin-c-serum",
+      "name": "سرم روشن‌کننده ویتامین C",
+      "brand": "لومیا",
+      "category": "skincare",
+      "price": 780000,
+      "volume": "۳۰ میلی‌لیتر",
+      "suitableFor": "پوست‌های کدر و دارای لک",
+      "description": "سرم آنتی‌اکسیدان با ویتامین C پایدار که به روشن‌شدن پوست، کاهش لک‌های سطحی و یکنواخت‌شدن رنگ پوست کمک می‌کند.",
+      "ingredients": [
+        "ویتامین C ده درصد",
+        "ویتامین E",
+        "اسید فرولیک",
+        "هیالورونیک اسید"
+      ],
+      "usage": "هر صبح ۳ تا ۴ قطره روی پوست تمیز بزنید و بعد از آن حتماً از ضدآفتاب استفاده کنید.",
+      "images": [
+        "/images/products/vitamin-c-serum-1.svg",
+        "/images/products/vitamin-c-serum-2.svg",
+        "/images/products/vitamin-c-serum-3.svg"
+      ],
+      "beforeImage": "/images/products/vitamin-c-serum-before.svg",
+      "afterImage": "/images/products/vitamin-c-serum-after.svg",
+      "rating": 4.4,
+      "reviewsCount": 86,
+      "stock": 31,
+      "featured": true
+    },
+    {
+      "id": 3,
+      "slug": "gentle-face-cleanser",
+      "name": "ژل شست‌وشوی ملایم صورت",
+      "brand": "آرا",
+      "category": "skincare",
+      "price": 280000,
+      "volume": "۱۵۰ میلی‌لیتر",
+      "suitableFor": "پوست چرب و مختلط",
+      "description": "ژل شست‌وشوی بدون سولفات که آلودگی و چربی اضافی را پاک می‌کند، بدون اینکه پوست را خشک کند.",
+      "ingredients": [
+        "عصاره‌ی چای سبز",
+        "آلوئه‌ورا",
+        "سالیسیلیک اسید ۰٫۵٪",
+        "گلیسیرین"
+      ],
+      "usage": "صبح و شب روی پوست مرطوب ماساژ دهید و با آب ولرم بشویید.",
+      "images": [
+        "/images/products/gentle-face-cleanser-1.svg",
+        "/images/products/gentle-face-cleanser-2.svg",
+        "/images/products/gentle-face-cleanser-3.svg"
+      ],
+      "beforeImage": null,
+      "afterImage": null,
+      "rating": 4.1,
+      "reviewsCount": 123,
+      "stock": 44,
+      "featured": false
+    },
+    {
+      "id": 4,
+      "slug": "spf50-sunscreen",
+      "name": "کرم ضدآفتاب SPF50",
+      "brand": "ولورا",
+      "category": "skincare",
+      "price": 520000,
+      "volume": "۵۰ میلی‌لیتر",
+      "suitableFor": "همه‌ی انواع پوست",
+      "description": "ضدآفتاب سبک و بدون جرم سفید با محافظت وسیع‌طیف در برابر UVA و UVB، مناسب زیر آرایش.",
+      "ingredients": [
+        "اکتینوکسات",
+        "زینک اکسید",
+        "ویتامین E",
+        "آلوئه‌ورا"
+      ],
+      "usage": "۱۵ دقیقه قبل از بیرون رفتن به‌اندازه‌ی کافی روی صورت و گردن بزنید و هر ۲ تا ۳ ساعت تکرار کنید.",
+      "images": [
+        "/images/products/spf50-sunscreen-1.svg",
+        "/images/products/spf50-sunscreen-2.svg",
+        "/images/products/spf50-sunscreen-3.svg"
+      ],
+      "beforeImage": null,
+      "afterImage": null,
+      "rating": 4.8,
+      "reviewsCount": 160,
+      "stock": 17,
+      "featured": true
+    },
+    {
+      "id": 5,
+      "slug": "balancing-toner",
+      "name": "تونر متعادل‌کننده پوست",
+      "brand": "لومیا",
+      "category": "skincare",
+      "price": 330000,
+      "volume": "۲۰۰ میلی‌لیتر",
+      "suitableFor": "پوست چرب و مختلط",
+      "description": "تونر بدون الکل که pH پوست را متعادل می‌کند و منافذ را کمتر نمایان می‌کند.",
+      "ingredients": [
+        "عصاره‌ی گل رز",
+        "نیاسینامید",
+        "عصاره‌ی بید",
+        "گلیسیرین"
+      ],
+      "usage": "بعد از شست‌وشوی صورت، روی پد پنبه‌ای بریزید و ملایم روی پوست بکشید.",
+      "images": [
+        "/images/products/balancing-toner-1.svg",
+        "/images/products/balancing-toner-2.svg",
+        "/images/products/balancing-toner-3.svg"
+      ],
+      "beforeImage": null,
+      "afterImage": null,
+      "rating": 4.5,
+      "reviewsCount": 17,
+      "stock": 30,
+      "featured": false
+    },
+    {
+      "id": 6,
+      "slug": "clay-purifying-mask",
+      "name": "ماسک پاک‌کننده خاک رس",
+      "brand": "ولورا",
+      "category": "skincare",
+      "price": 390000,
+      "volume": "۱۰۰ میلی‌لیتر",
+      "suitableFor": "پوست چرب و دارای منافذ باز",
+      "description": "ماسک خاک رس سفید که چربی اضافی و آلودگی عمقی منافذ را جذب می‌کند.",
+      "ingredients": [
+        "کائولین",
+        "بنتونیت",
+        "عصاره‌ی چای سبز",
+        "پانتنول"
+      ],
+      "usage": "هفته‌ای ۱ تا ۲ بار روی صورت تمیز بمالید، ۱۰ دقیقه صبر کنید و با آب ولرم بشویید.",
+      "images": [
+        "/images/products/clay-purifying-mask-1.svg",
+        "/images/products/clay-purifying-mask-2.svg",
+        "/images/products/clay-purifying-mask-3.svg"
+      ],
+      "beforeImage": "/images/products/clay-purifying-mask-before.svg",
+      "afterImage": "/images/products/clay-purifying-mask-after.svg",
+      "rating": 4.2,
+      "reviewsCount": 54,
+      "stock": 43,
+      "featured": false
+    },
+    {
+      "id": 7,
+      "slug": "eye-contour-cream",
+      "name": "کرم دور چشم ضد پف",
+      "brand": "آرا",
+      "category": "skincare",
+      "price": 610000,
+      "volume": "۱۵ میلی‌لیتر",
+      "suitableFor": "همه‌ی انواع پوست",
+      "description": "کرم دور چشم با کافئین و پپتید که به کاهش پف و تیرگی زیر چشم کمک می‌کند.",
+      "ingredients": [
+        "کافئین",
+        "پپتید",
+        "ویتامین K",
+        "هیالورونیک اسید"
+      ],
+      "usage": "صبح و شب مقدار کمی با نوک انگشت دور چشم ضربه‌ای پخش کنید.",
+      "images": [
+        "/images/products/eye-contour-cream-1.svg",
+        "/images/products/eye-contour-cream-2.svg",
+        "/images/products/eye-contour-cream-3.svg"
+      ],
+      "beforeImage": "/images/products/eye-contour-cream-before.svg",
+      "afterImage": "/images/products/eye-contour-cream-after.svg",
+      "rating": 4.9,
+      "reviewsCount": 91,
+      "stock": 16,
+      "featured": false
+    },
+    {
+      "id": 8,
+      "slug": "niacinamide-serum",
+      "name": "سرم نیاسینامید ضد جوش",
+      "brand": "لومیا",
+      "category": "skincare",
+      "price": 650000,
+      "volume": "۳۰ میلی‌لیتر",
+      "suitableFor": "پوست چرب و مستعد جوش",
+      "description": "سرم نیاسینامید ۱۰٪ و زینک که به کنترل چربی، کاهش جوش و کم‌رنگ‌شدن اثر آن‌ها کمک می‌کند.",
+      "ingredients": [
+        "نیاسینامید ده درصد",
+        "زینک PCA",
+        "هیالورونیک اسید"
+      ],
+      "usage": "شب‌ها بعد از تونر ۳ تا ۴ قطره روی پوست بزنید و سپس مرطوب‌کننده استفاده کنید.",
+      "images": [
+        "/images/products/niacinamide-serum-1.svg",
+        "/images/products/niacinamide-serum-2.svg",
+        "/images/products/niacinamide-serum-3.svg"
+      ],
+      "beforeImage": "/images/products/niacinamide-serum-before.svg",
+      "afterImage": "/images/products/niacinamide-serum-after.svg",
+      "rating": 4.6,
+      "reviewsCount": 128,
+      "stock": 29,
+      "featured": false
+    },
+    {
+      "id": 9,
+      "slug": "matte-foundation",
+      "name": "کرم پودر مات",
+      "brand": "ولورا",
+      "category": "makeup",
+      "price": 690000,
+      "volume": "۳۰ میلی‌لیتر",
+      "suitableFor": "پوست چرب و مختلط",
+      "description": "کرم پودر با پوشش متوسط تا کامل و ماندگاری ۱۲ ساعته که ظاهری مات و یکدست به پوست می‌دهد.",
+      "ingredients": [
+        "دی‌اکسید تیتانیوم",
+        "سیلیکا",
+        "گلیسیرین",
+        "ویتامین E"
+      ],
+      "usage": "با اسفنج مرطوب یا براش از مرکز صورت به بیرون پخش کنید.",
+      "images": [
+        "/images/products/matte-foundation-1.svg",
+        "/images/products/matte-foundation-2.svg",
+        "/images/products/matte-foundation-3.svg"
+      ],
+      "beforeImage": "/images/products/matte-foundation-before.svg",
+      "afterImage": "/images/products/matte-foundation-after.svg",
+      "rating": 4.3,
+      "reviewsCount": 165,
+      "stock": 42,
+      "featured": true
+    },
+    {
+      "id": 10,
+      "slug": "full-coverage-concealer",
+      "name": "کانسیلر پوشش کامل",
+      "brand": "آرا",
+      "category": "makeup",
+      "price": 420000,
+      "volume": "۸ میلی‌لیتر",
+      "suitableFor": "همه‌ی انواع پوست",
+      "description": "کانسیلر مایع با پوشش بالا برای پنهان‌کردن تیرگی زیر چشم، لک و جوش بدون ترک‌خوردن.",
+      "ingredients": [
+        "هیالورونیک اسید",
+        "ویتامین E",
+        "روغن جوجوبا"
+      ],
+      "usage": "روی نقاط موردنظر بزنید و با نوک انگشت یا اسفنج ضربه‌ای پخش کنید.",
+      "images": [
+        "/images/products/full-coverage-concealer-1.svg",
+        "/images/products/full-coverage-concealer-2.svg",
+        "/images/products/full-coverage-concealer-3.svg"
+      ],
+      "beforeImage": "/images/products/full-coverage-concealer-before.svg",
+      "afterImage": "/images/products/full-coverage-concealer-after.svg",
+      "rating": 4.0,
+      "reviewsCount": 22,
+      "stock": 15,
+      "featured": false
+    },
+    {
+      "id": 11,
+      "slug": "matte-lipstick",
+      "name": "رژ لب مات ماندگار",
+      "brand": "لومیا",
+      "category": "makeup",
+      "price": 360000,
+      "volume": "۳٫۵ گرم",
+      "suitableFor": "همه‌ی انواع لب",
+      "description": "رژ لب مات با رنگ‌دانه‌ی بالا و بافت سبک که تا ۸ ساعت ماندگار است و لب را خشک نمی‌کند.",
+      "ingredients": [
+        "روغن جوجوبا",
+        "ویتامین E",
+        "کره‌ی شی",
+        "موم زنبور عسل"
+      ],
+      "usage": "از مرکز لب شروع کنید و به سمت گوشه‌ها بکشید. برای ماندگاری بیشتر از مداد لب استفاده کنید.",
+      "images": [
+        "/images/products/matte-lipstick-1.svg",
+        "/images/products/matte-lipstick-2.svg",
+        "/images/products/matte-lipstick-3.svg"
+      ],
+      "beforeImage": null,
+      "afterImage": null,
+      "rating": 4.7,
+      "reviewsCount": 59,
+      "stock": 28,
+      "featured": true
+    },
+    {
+      "id": 12,
+      "slug": "volumizing-mascara",
+      "name": "ریمل حجم‌دهنده و بلندکننده",
+      "brand": "ولورا",
+      "category": "makeup",
+      "price": 380000,
+      "volume": "۱۲ میلی‌لیتر",
+      "suitableFor": "همه‌ی انواع مژه",
+      "description": "ریمل ضدآب با برس سیلیکونی که مژه‌ها را بلند، پرحجم و جدا از هم نشان می‌دهد.",
+      "ingredients": [
+        "پانتنول",
+        "موم کارنوبا",
+        "پروتئین ابریشم"
+      ],
+      "usage": "از ریشه‌ی مژه به سمت نوک برس را حرکت زیگزاگی بدهید. برای حجم بیشتر دو لایه بزنید.",
+      "images": [
+        "/images/products/volumizing-mascara-1.svg",
+        "/images/products/volumizing-mascara-2.svg",
+        "/images/products/volumizing-mascara-3.svg"
+      ],
+      "beforeImage": "/images/products/volumizing-mascara-before.svg",
+      "afterImage": "/images/products/volumizing-mascara-after.svg",
+      "rating": 4.4,
+      "reviewsCount": 96,
+      "stock": 41,
+      "featured": false
+    },
+    {
+      "id": 13,
+      "slug": "eyeshadow-palette",
+      "name": "پالت سایه چشم ۱۲ رنگ",
+      "brand": "آرا",
+      "category": "makeup",
+      "price": 850000,
+      "volume": "۱۲ رنگ",
+      "suitableFor": "همه‌ی انواع پوست",
+      "description": "پالت ۱۲ رنگی با ترکیب سایه‌های مات و شیمر در رنگ‌های گرم، با پیگمنت بالا و ترکیب‌پذیری عالی.",
+      "ingredients": [
+        "میکا",
+        "تالک",
+        "روغن جوجوبا",
+        "ویتامین E"
+      ],
+      "usage": "ابتدا رنگ روشن را روی تمام پلک بکشید، سپس رنگ‌های تیره‌تر را در گوشه‌ی چشم ترکیب کنید.",
+      "images": [
+        "/images/products/eyeshadow-palette-1.svg",
+        "/images/products/eyeshadow-palette-2.svg",
+        "/images/products/eyeshadow-palette-3.svg"
+      ],
+      "beforeImage": null,
+      "afterImage": null,
+      "rating": 4.1,
+      "reviewsCount": 133,
+      "stock": 14,
+      "featured": false
+    },
+    {
+      "id": 14,
+      "slug": "powder-blush",
+      "name": "رژگونه پودری",
+      "brand": "لومیا",
+      "category": "makeup",
+      "price": 340000,
+      "volume": "۶ گرم",
+      "suitableFor": "همه‌ی انواع پوست",
+      "description": "رژگونه‌ی پودری ابریشمی با رنگ طبیعی که گونه‌ها را شاداب نشان می‌دهد.",
+      "ingredients": [
+        "میکا",
+        "روغن آرگان",
+        "ویتامین E"
+      ],
+      "usage": "با براش مخصوص روی برجستگی گونه‌ها بزنید و به سمت شقیقه ترکیب کنید.",
+      "images": [
+        "/images/products/powder-blush-1.svg",
+        "/images/products/powder-blush-2.svg",
+        "/images/products/powder-blush-3.svg"
+      ],
+      "beforeImage": null,
+      "afterImage": null,
+      "rating": 4.8,
+      "reviewsCount": 170,
+      "stock": 27,
+      "featured": false
+    },
+    {
+      "id": 15,
+      "slug": "liquid-eyeliner",
+      "name": "خط چشم ماژیکی ضدآب",
+      "brand": "ولورا",
+      "category": "makeup",
+      "price": 240000,
+      "volume": "۳ میلی‌لیتر",
+      "suitableFor": "همه‌ی انواع پوست",
+      "description": "خط چشم ماژیکی با نوک فوق‌باریک و رنگ مشکی عمیق که تا ۲۴ ساعت پخش نمی‌شود.",
+      "ingredients": [
+        "پیگمنت مشکی",
+        "پانتنول"
+      ],
+      "usage": "از گوشه‌ی داخلی چشم به سمت بیرون بکشید و ۳۰ ثانیه صبر کنید تا خشک شود.",
+      "images": [
+        "/images/products/liquid-eyeliner-1.svg",
+        "/images/products/liquid-eyeliner-2.svg",
+        "/images/products/liquid-eyeliner-3.svg"
+      ],
+      "beforeImage": null,
+      "afterImage": null,
+      "rating": 4.5,
+      "reviewsCount": 27,
+      "stock": 40,
+      "featured": false
+    },
+    {
+      "id": 16,
+      "slug": "gel-nail-polish",
+      "name": "لاک ناخن ژله‌ای",
+      "brand": "آرا",
+      "category": "makeup",
+      "price": 150000,
+      "volume": "۱۲ میلی‌لیتر",
+      "suitableFor": "ناخن",
+      "description": "لاک ژله‌ای با جلای بالا و بدون نیاز به لامپ که تا ۷ روز ماندگار می‌ماند.",
+      "ingredients": [
+        "نیتروسلولز",
+        "اتیل استات",
+        "رزین"
+      ],
+      "usage": "دو لایه‌ی نازک بزنید و بین لایه‌ها ۲ دقیقه صبر کنید. از بیس و تاپ‌کوت استفاده کنید.",
+      "images": [
+        "/images/products/gel-nail-polish-1.svg",
+        "/images/products/gel-nail-polish-2.svg",
+        "/images/products/gel-nail-polish-3.svg"
+      ],
+      "beforeImage": null,
+      "afterImage": null,
+      "rating": 4.2,
+      "reviewsCount": 64,
+      "stock": 13,
+      "featured": false
+    },
+    {
+      "id": 17,
+      "slug": "repair-shampoo",
+      "name": "شامپو ترمیم‌کننده",
+      "brand": "نچره",
+      "category": "haircare",
+      "price": 310000,
+      "volume": "۴۰۰ میلی‌لیتر",
+      "suitableFor": "موهای آسیب‌دیده و رنگ‌شده",
+      "description": "شامپوی بدون سولفات با کراتین و پروتئین ابریشم که موهای آسیب‌دیده را تقویت و نرم می‌کند.",
+      "ingredients": [
+        "کراتین",
+        "پروتئین ابریشم",
+        "روغن آرگان",
+        "پانتنول"
+      ],
+      "usage": "روی موی خیس ماساژ دهید، کف کنید و کامل آبکشی کنید. در صورت نیاز تکرار کنید.",
+      "images": [
+        "/images/products/repair-shampoo-1.svg",
+        "/images/products/repair-shampoo-2.svg",
+        "/images/products/repair-shampoo-3.svg"
+      ],
+      "beforeImage": "/images/products/repair-shampoo-before.svg",
+      "afterImage": "/images/products/repair-shampoo-after.svg",
+      "rating": 4.9,
+      "reviewsCount": 101,
+      "stock": 26,
+      "featured": true
+    },
+    {
+      "id": 18,
+      "slug": "nourishing-conditioner",
+      "name": "نرم‌کننده مغذی مو",
+      "brand": "نچره",
+      "category": "haircare",
+      "price": 290000,
+      "volume": "۴۰۰ میلی‌لیتر",
+      "suitableFor": "همه‌ی انواع مو",
+      "description": "نرم‌کننده‌ی مغذی که شانه‌کردن مو را آسان می‌کند و از وز و الکتریسیته جلوگیری می‌کند.",
+      "ingredients": [
+        "کره‌ی شی",
+        "روغن نارگیل",
+        "ویتامین B5"
+      ],
+      "usage": "بعد از شامپو روی طول و انتهای مو بمالید، ۲ دقیقه صبر کنید و آبکشی کنید.",
+      "images": [
+        "/images/products/nourishing-conditioner-1.svg",
+        "/images/products/nourishing-conditioner-2.svg",
+        "/images/products/nourishing-conditioner-3.svg"
+      ],
+      "beforeImage": null,
+      "afterImage": null,
+      "rating": 4.6,
+      "reviewsCount": 138,
+      "stock": 39,
+      "featured": false
+    },
+    {
+      "id": 19,
+      "slug": "argan-hair-oil",
+      "name": "روغن آرگان مو",
+      "brand": "نچره",
+      "category": "haircare",
+      "price": 480000,
+      "volume": "۱۰۰ میلی‌لیتر",
+      "suitableFor": "موهای خشک و وزدار",
+      "description": "روغن آرگان خالص که درخشندگی و نرمی مو را افزایش می‌دهد و وز را کنترل می‌کند.",
+      "ingredients": [
+        "روغن آرگان",
+        "ویتامین E",
+        "روغن جوجوبا"
+      ],
+      "usage": "۲ تا ۳ پمپ روی موی نیمه‌خیس یا خشک، از میانه تا نوک مو بمالید.",
+      "images": [
+        "/images/products/argan-hair-oil-1.svg",
+        "/images/products/argan-hair-oil-2.svg",
+        "/images/products/argan-hair-oil-3.svg"
+      ],
+      "beforeImage": "/images/products/argan-hair-oil-before.svg",
+      "afterImage": "/images/products/argan-hair-oil-after.svg",
+      "rating": 4.3,
+      "reviewsCount": 175,
+      "stock": 12,
+      "featured": true
+    },
+    {
+      "id": 20,
+      "slug": "keratin-hair-mask",
+      "name": "ماسک مو کراتینه",
+      "brand": "نچره",
+      "category": "haircare",
+      "price": 540000,
+      "volume": "۳۰۰ میلی‌لیتر",
+      "suitableFor": "موهای ضعیف و شکننده",
+      "description": "ماسک تقویتی عمیق که با کراتین رشته‌های آسیب‌دیده مو را ترمیم می‌کند.",
+      "ingredients": [
+        "کراتین",
+        "روغن بادام",
+        "پانتنول",
+        "ماکادمیا"
+      ],
+      "usage": "هفته‌ای یک بار روی موی خیس بمالید، ۱۵ دقیقه بگذارید و بشویید.",
+      "images": [
+        "/images/products/keratin-hair-mask-1.svg",
+        "/images/products/keratin-hair-mask-2.svg",
+        "/images/products/keratin-hair-mask-3.svg"
+      ],
+      "beforeImage": null,
+      "afterImage": null,
+      "rating": 4.0,
+      "reviewsCount": 32,
+      "stock": 25,
+      "featured": false
+    },
+    {
+      "id": 21,
+      "slug": "body-lotion",
+      "name": "لوسیون بدن نرم‌کننده",
+      "brand": "آرا",
+      "category": "bodycare",
+      "price": 360000,
+      "volume": "۲۵۰ میلی‌لیتر",
+      "suitableFor": "پوست خشک تا معمولی",
+      "description": "لوسیون سبک با کره‌ی شی که پوست را تا ۴۸ ساعت نرم و مرطوب نگه می‌دارد.",
+      "ingredients": [
+        "کره‌ی شی",
+        "گلیسیرین",
+        "روغن بادام",
+        "ویتامین E"
+      ],
+      "usage": "بعد از دوش روی پوست کمی مرطوب بمالید و ماساژ دهید.",
+      "images": [
+        "/images/products/body-lotion-1.svg",
+        "/images/products/body-lotion-2.svg",
+        "/images/products/body-lotion-3.svg"
+      ],
+      "beforeImage": null,
+      "afterImage": null,
+      "rating": 4.7,
+      "reviewsCount": 69,
+      "stock": 38,
+      "featured": false
+    },
+    {
+      "id": 22,
+      "slug": "shower-gel",
+      "name": "ژل دوش با عصاره‌ی گل",
+      "brand": "لومیا",
+      "category": "bodycare",
+      "price": 220000,
+      "volume": "۴۰۰ میلی‌لیتر",
+      "suitableFor": "همه‌ی انواع پوست",
+      "description": "ژل دوش با کف فراوان و عطر ملایم گل که پوست را تمیز و تازه می‌کند.",
+      "ingredients": [
+        "عصاره‌ی گل یاس",
+        "گلیسیرین",
+        "آلوئه‌ورا"
+      ],
+      "usage": "روی لیف یا دست مرطوب بریزید، کف کنید و آبکشی کنید.",
+      "images": [
+        "/images/products/shower-gel-1.svg",
+        "/images/products/shower-gel-2.svg",
+        "/images/products/shower-gel-3.svg"
+      ],
+      "beforeImage": null,
+      "afterImage": null,
+      "rating": 4.4,
+      "reviewsCount": 106,
+      "stock": 11,
+      "featured": false
+    },
+    {
+      "id": 23,
+      "slug": "hand-cream",
+      "name": "کرم دست ترمیم‌کننده",
+      "brand": "آرا",
+      "category": "bodycare",
+      "price": 180000,
+      "volume": "۷۵ میلی‌لیتر",
+      "suitableFor": "دست‌های خشک و ترک‌خورده",
+      "description": "کرم دست غنی که زود جذب می‌شود و ترک و خشکی را کاهش می‌دهد.",
+      "ingredients": [
+        "کره‌ی شی",
+        "گلیسیرین",
+        "پانتنول"
+      ],
+      "usage": "در طول روز و بعد از هر بار شست‌وشوی دست استفاده کنید.",
+      "images": [
+        "/images/products/hand-cream-1.svg",
+        "/images/products/hand-cream-2.svg",
+        "/images/products/hand-cream-3.svg"
+      ],
+      "beforeImage": null,
+      "afterImage": null,
+      "rating": 4.1,
+      "reviewsCount": 143,
+      "stock": 24,
+      "featured": false
+    },
+    {
+      "id": 24,
+      "slug": "floral-eau-de-parfum",
+      "name": "ادوپرفیوم زنانه با رایحه‌ی گلی",
+      "brand": "ولورا",
+      "category": "fragrance",
+      "price": 1850000,
+      "volume": "۱۰۰ میلی‌لیتر",
+      "suitableFor": "بانوان",
+      "description": "رایحه‌ی گلی-میوه‌ای با نت‌های یاس، رز و وانیل که ماندگاری بالایی دارد.",
+      "ingredients": [
+        "نت سر: برگاموت و گلابی",
+        "نت قلب: یاس و رز",
+        "نت پایه: وانیل و مشک سفید"
+      ],
+      "usage": "روی نبض مچ، پشت گوش و گردن اسپری کنید. مالیدن دو مچ به هم توصیه نمی‌شود.",
+      "images": [
+        "/images/products/floral-eau-de-parfum-1.svg",
+        "/images/products/floral-eau-de-parfum-2.svg",
+        "/images/products/floral-eau-de-parfum-3.svg"
+      ],
+      "beforeImage": null,
+      "afterImage": null,
+      "rating": 4.8,
+      "reviewsCount": 180,
+      "stock": 37,
+      "featured": true
+    },
+    {
+      "id": 25,
+      "slug": "woody-eau-de-toilette",
+      "name": "ادوتویلت مردانه با رایحه‌ی چوبی",
+      "brand": "ولورا",
+      "category": "fragrance",
+      "price": 1650000,
+      "volume": "۱۰۰ میلی‌لیتر",
+      "suitableFor": "آقایان",
+      "description": "رایحه‌ی چوبی و ادویه‌ای با نت‌های سدر، فلفل سیاه و عنبر.",
+      "ingredients": [
+        "نت سر: فلفل سیاه و لیمو",
+        "نت قلب: سدر و اسطوخودوس",
+        "نت پایه: عنبر و چوب صندل"
+      ],
+      "usage": "از فاصله‌ی ۲۰ سانتی‌متری روی گردن و مچ دست اسپری کنید.",
+      "images": [
+        "/images/products/woody-eau-de-toilette-1.svg",
+        "/images/products/woody-eau-de-toilette-2.svg",
+        "/images/products/woody-eau-de-toilette-3.svg"
+      ],
+      "beforeImage": null,
+      "afterImage": null,
+      "rating": 4.5,
+      "reviewsCount": 37,
+      "stock": 10,
+      "featured": false
+    },
+    {
+      "id": 26,
+      "slug": "whitening-toothpaste",
+      "name": "خمیردندان سفیدکننده",
+      "brand": "نچره",
+      "category": "hygiene",
+      "price": 120000,
+      "volume": "۱۰۰ میلی‌لیتر",
+      "suitableFor": "بزرگسالان",
+      "description": "خمیردندان حاوی فلوراید که لکه‌های سطحی را پاک می‌کند و از پوسیدگی دندان جلوگیری می‌کند.",
+      "ingredients": [
+        "فلوراید",
+        "سیلیکا",
+        "بیکینگ‌سودا",
+        "عصاره‌ی نعنا"
+      ],
+      "usage": "صبح و شب به مدت ۲ دقیقه مسواک بزنید.",
+      "images": [
+        "/images/products/whitening-toothpaste-1.svg",
+        "/images/products/whitening-toothpaste-2.svg",
+        "/images/products/whitening-toothpaste-3.svg"
+      ],
+      "beforeImage": null,
+      "afterImage": null,
+      "rating": 4.2,
+      "reviewsCount": 74,
+      "stock": 23,
+      "featured": false
+    },
+    {
+      "id": 27,
+      "slug": "antiperspirant-roll-on",
+      "name": "رول ضد تعریق",
+      "brand": "لومیا",
+      "category": "hygiene",
+      "price": 140000,
+      "volume": "۵۰ میلی‌لیتر",
+      "suitableFor": "آقایان و بانوان",
+      "description": "رول ضد تعریق بدون الکل که تا ۴۸ ساعت از تعریق و بوی بد جلوگیری می‌کند.",
+      "ingredients": [
+        "آلومینیوم کلروهیدرات",
+        "آلوئه‌ورا",
+        "ویتامین E"
+      ],
+      "usage": "روی پوست تمیز و خشک زیر بغل بکشید.",
+      "images": [
+        "/images/products/antiperspirant-roll-on-1.svg",
+        "/images/products/antiperspirant-roll-on-2.svg",
+        "/images/products/antiperspirant-roll-on-3.svg"
+      ],
+      "beforeImage": null,
+      "afterImage": null,
+      "rating": 4.9,
+      "reviewsCount": 111,
+      "stock": 36,
+      "featured": false
+    },
+    {
+      "id": 28,
+      "slug": "lip-balm",
+      "name": "بالم لب مغذی",
+      "brand": "آرا",
+      "category": "hygiene",
+      "price": 90000,
+      "volume": "۱۰ گرم",
+      "suitableFor": "همه‌ی انواع لب",
+      "description": "بالم لب با موم زنبور عسل که لب‌های خشک و ترک‌خورده را نرم و ترمیم می‌کند.",
+      "ingredients": [
+        "موم زنبور عسل",
+        "کره‌ی کاکائو",
+        "روغن بادام",
+        "ویتامین E"
+      ],
+      "usage": "در طول روز و قبل از خواب به لب‌ها بزنید.",
+      "images": [
+        "/images/products/lip-balm-1.svg",
+        "/images/products/lip-balm-2.svg",
+        "/images/products/lip-balm-3.svg"
+      ],
+      "beforeImage": null,
+      "afterImage": null,
+      "rating": 4.6,
+      "reviewsCount": 148,
+      "stock": 9,
+      "featured": false
+    }
+  ]
+}

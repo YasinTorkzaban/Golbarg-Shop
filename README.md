@@ -1,36 +1,98 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Golbarg | Cosmetics & Personal Care Online Store
+
+A front-end-only online store for cosmetics and personal care products, built with **Next.js** and **Tailwind CSS**. The standout feature is the **before/after comparison slider** on the product detail page.
+
+🔗 **Live demo:** [add your Vercel link here]
+
+## Features
+
+- Home page with a hero banner, category shortcuts, featured products, and a before/after demo
+- Product listing with **search** and **category filtering** (driven by URL query parameters)
+- Product detail page by **slug** (e.g. `/products/vitamin-c-serum`)
+- **Before/after slider**, shown only for products that have comparison images
+- **Shopping cart** with add, update quantity, and remove, persisted in `localStorage` so it survives page refreshes
+- About and Contact pages
+- **Responsive** layout for mobile and desktop, with a slide-in menu on mobile
+- Right-to-left (RTL) interface in Persian, using the **Vazirmatn** font
+
+## Tech Stack
+
+| Area | Tool |
+|---|---|
+| Framework | Next.js (App Router) |
+| Language | JavaScript (JSX) |
+| Styling | Tailwind CSS 4 |
+| Font | Vazirmatn (`@fontsource-variable/vazirmatn`) |
+| Cart state | React Context + localStorage |
+| Data | `db.json` file (no backend or database) |
+| Deployment | Vercel |
 
 ## Getting Started
 
-First, run the development server:
+Prerequisite: [Node.js](https://nodejs.org) (version 20 or later).
 
 ```bash
+# Clone the project
+git clone https://github.com/YasinTorkzaban/Golbarg-Shop.git
+cd Golbarg-Shop
+
+# Install dependencies
+npm install
+
+# Start the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Then open `http://localhost:3000` in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+To create a production build:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build
+npm start
+```
 
-## Learn More
+## Pages
 
-To learn more about Next.js, take a look at the following resources:
+| Route | Description |
+|---|---|
+| `/` | Home page |
+| `/products` | Product list with search and category filter |
+| `/products/[slug]` | Product details |
+| `/cart` | Shopping cart |
+| `/about` | About us |
+| `/contact` | Contact (demo form) |
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Project Structure
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```
+golbarg-shop/
+├── app/                    Pages and the root layout
+│   ├── layout.js
+│   ├── page.js
+│   ├── products/
+│   │   ├── page.js
+│   │   └── [slug]/page.js
+│   ├── cart/page.js
+│   ├── about/page.js
+│   └── contact/page.js
+├── components/             Header, Footer, ProductCard, BeforeAfterSlider, ...
+├── context/CartContext.js  Cart state management
+├── lib/
+│   ├── api.js              All data access lives in this file
+│   ├── format.js           Price and Persian number formatting
+│   └── site.js             Store name and navigation links
+├── public/images/          Product images and banner
+└── db.json                 Categories and products data
+```
 
-## Deploy on Vercel
+## Notes
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **Data:** the project has no backend, so products are read from `db.json`. All data access is centralized in `lib/api.js`, so it can be connected to a real API later without changing any page.
+- **Images:** product images and the before/after results are sample illustrations (SVG). They do not represent real results from using the products.
+- **Store details:** the store name, address, phone number, and brands are placeholders and fictional.
+- **Contact form and checkout:** both are demo-only and do not send or store any data.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Author
+
+Yasin Torkzaban
