@@ -42,7 +42,7 @@ export default function AboutPage() {
         </div>
         <div className="relative aspect-3/2 w-full overflow-hidden rounded-3xl bg-petal">
           <Image
-            src="/images/about.jfif"
+            src="/images/about.jpg"
             alt=""
             fill
             sizes="(min-width: 768px) 50vw, 100vw"
